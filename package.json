@@ -1,0 +1,24 @@
+{
+  "name": "booksprouts",
+  "version": "1.0.0",
+  "description": "A modern, production-ready template for building full-stack React applications using React Router.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanAnimashaun/BookSprouts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HassanAnimashaun/BookSprouts/issues"
+  },
+  "homepage": "https://github.com/HassanAnimashaun/BookSprouts#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
