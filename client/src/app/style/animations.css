@@ -1,0 +1,29 @@
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Profile enter animation */
+.profile-card-child {
+  animation: profileEnter 0.4s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+@keyframes profileEnter {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
