@@ -1,87 +1,53 @@
-# Welcome to React Router!
+# BookSprout 🌱
 
-A modern, production-ready template for building full-stack React applications using React Router.
+> Where Reading Grows
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+BookSprout is a reading tracker designed for children ages 4–9. It turns reading into a gardening adventure — every book waters your plants, progress makes them bloom, and consistency earns real-world rewards.
 
 ---
 
-Built with ❤️ using React Router.
+## ✨ Features
+
+### For Kids
+- 🌱 **Plant Growth System** — Watch your garden grow from seeds to blooms as you read
+- 💧 **Droplet Points** — Earn water droplets for every book completed
+- 📚 **Simple Book Logging** — Add books with a photo or title, rate them with emojis
+- 🎨 **Sticker Collection** — Unlock achievement stickers as you hit milestones
+- 🔥 **Reading Streaks** — Track consecutive reading days with gentle encouragement
+- 🎁 **Reward Garden** — Redeem droplets for parent-approved real-world rewards
+
+### For Parents
+- 📊 **Analytics Dashboard** — Weekly and monthly reading summaries with charts
+- 👥 **Multi-Child Support** — Manage multiple profiles with individual dashboards
+- ⚙️ **Custom Rewards** — Create and manage your own reward catalog with droplet costs
+- 🎯 **Goal Setting** — Set weekly and monthly reading targets per child
+- 📱 **Activity Feed** — Real-time log of books read, stickers unlocked, and rewards redeemed
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:** Vue 3, Tailwind CSS, Vite, Vue Router, Axios
+
+**Backend:** Node.js, Express 5, MongoDB (raw driver)
+
+**Auth:** JWT stored in HTTP-only cookies, role-based access control (parent / child)
+
+---
+
+## 📸 Screenshots
+
+> Coming soon
+
+
+## 👤 Author
+
+**Hassan Animashaun**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hassananimashaun-29bbb5262/)
+
+---
+
+## 📄 License
+
+MIT License
