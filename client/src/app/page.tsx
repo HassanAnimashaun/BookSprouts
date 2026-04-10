@@ -2,9 +2,11 @@
 
 import { Eye, EyeOff } from 'lucide-react';
 import { useState } from 'react';
+import SignupModal from '../components/auth/SignupModal';
 
 export default function Home() {
   const [showPassword, setShowPassword] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleToggle = () => {
     setShowPassword((prev) => !prev);
@@ -51,7 +53,7 @@ export default function Home() {
           {/* Login Form */}
           <div className="bg-white rounded-3xl p-8 shadow-lifted border-4 border-warm-cream">
             <form action="" className="block ">
-              {/* Email */}
+              {/* Username */}
               <div className="mb-4">
                 <label className="font-body text-sm font-semibold text-dark-slate mb-2 block">
                   👤 Username
@@ -107,11 +109,15 @@ export default function Home() {
           <div className="text-center mt-6">
             <p className="font-body text-dark-slate">
               New here?{' '}
-              <button className="font-semibold text-leaf-green cursor-pointer">
+              <button
+                className="font-semibold text-leaf-green cursor-pointer"
+                onClick={() => setOpen(true)}
+              >
                 Create an account
               </button>
             </p>
           </div>
+          <SignupModal open={open} setOpen={setOpen} />
         </div>
       </div>
     </div>

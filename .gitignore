@@ -37,6 +37,10 @@ lerna-debug.log*
 coverage/
 *.lcov
 
+# Claude Code
+.claude/
+.claire/
+
 # Misc
 .cache/
 .turbo/
